@@ -1,0 +1,196 @@
+body {
+  width: 100%;
+  margin: 0px;
+  background-image: url(./pexels-stephane-hurbe-4065578.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+.logodiv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #1d2333;
+}
+.formandbutton {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: 20px;
+  gap: 20px;
+}
+.forma {
+  height: 50px;
+  text-decoration: none;
+  background-color: rgba(0, 106, 255, 0.2);
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  padding: 0px 20px 0px 20px;
+}
+#searchinput {
+  padding-left: 20px;
+  height: 50px;
+  width: 350px;
+  background-color: #1d2333;
+  border-radius: 20px;
+  border-style: double;
+  border-color: blue;
+  color: white;
+  flex: 1 1 150px;
+}
+::placeholder {
+  color: white;
+}
+.formdiv {
+  display: flex;
+}
+
+.signbutton {
+  height: 50px;
+  border-color: blue;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  padding: 0px 20px 0px 20px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+a.signbutton {
+  text-decoration: none;
+}
+
+nav {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #272e43;
+}
+.nav1 {
+  display: flex;
+  gap: 20px;
+}
+.a:hover {
+  color: rgb(255, 255, 255);
+  transition: ease-in-out 1s;
+  font-size: medium;
+}
+.middle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #1d2333;
+}
+.card {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card1 {
+  height: 400px;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0px;
+  align-items: flex-start;
+}
+a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.292);
+}
+a:hover {
+  color: rgb(0, 0, 0);
+  font-size: large;
+}
+
+.logo {
+  text-decoration: none;
+  padding: 0px 10px 0px 10px;
+}
+.cardp {
+  color: rgba(255, 255, 255, 0.546);
+}
+.middle1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0px 20px 0px;
+  width: auto;
+  background-color: #272e438c;
+  border-radius: 30px 0px 30px 0px;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  border-radius: 20px;
+  height: 650px;
+  width: 300px;
+  background-color: #3f2d5cac;
+}
+.card2:hover {
+  background-color: rgb(91, 25, 36);
+  color: black;
+  transition: ease-out 1s;
+}
+.card22:hover {
+  background-color: rgb(91, 25, 36);
+  transition: ease-out 1s;
+}
+.card2img {
+  border-radius: 20px;
+  margin: 20px 5px 5px 5px;
+}
+
+.card22 {
+  display: flex;
+  align-items: center;
+  background-color: #3f2d5cac;
+  border-radius: 20px;
+  margin: 20px;
+
+  height: 625px;
+  width: auto;
+}
+.cardpa {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+p {
+  color: white;
+  text-align: justify;
+  padding: 0px 30px 5px 30px;
+}
+@media screen and (min-width:400px) and (max-width:1000px) {
+  #searchinput {
+    width: 250px;
+  }
+ 
+  body{
+    background-image: url(./pexels-stephane-hurbe-4065578.jpg);
+  }
+}

@@ -1,0 +1,165 @@
+body {
+  width: 100%;
+  margin: 0px;
+  background-image: url(./pexels-stephane-hurbe-4065578.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "poppins", sans-serif;
+}
+.logodiv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #1d2333;
+}
+.formandbutton {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: 20px;
+  gap: 20px;
+}
+.forma {
+  height: 50px;
+  text-decoration: none;
+  background-color: rgba(0, 106, 255, 0.2);
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  padding: 0px 20px 0px 20px;
+}
+#searchinput {
+  padding-left: 20px;
+  height: 50px;
+  width: 350px;
+  background-color: #1d2333;
+  border-radius: 20px;
+  border-style: double;
+  border-color: blue;
+  color: white;
+  flex: 1 1 150px;
+}
+::placeholder {
+  color: white;
+}
+.formdiv {
+  display: flex;
+}
+
+.signbutton {
+  height: 50px;
+  border-color: blue;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  padding: 0px 20px 0px 20px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+a.signbutton {
+  text-decoration: none;
+}
+nav {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #272e43;
+}
+.nav1 {
+  display: flex;
+  gap: 20px;
+}
+.a:hover {
+  color: rgb(255, 255, 255);
+  transition: ease-in-out 1s;
+  font-size: medium;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #1d2333;
+}
+.card {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card1 {
+  height: 400px;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0px;
+  align-items: flex-start;
+}
+a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.292);
+}
+a:hover {
+  color: rgb(0, 0, 0);
+  font-size: large;
+}
+.logo {
+  text-decoration: none;
+  padding: 0px 10px 0px 10px;
+}
+.cardp {
+  color: rgba(255, 255, 255, 0.546);
+}
+.h3 {
+  color: rgba(0, 0, 0, 0.658);
+  text-align: center;
+  font-size: 30px;
+}
+.aboutdiv {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  font-size: large;
+}
+.aboutsub {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 900px;
+  background-color: #272e43b6;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.aboutdiv2 {
+  list-style-type: square;
+  list-style-position: inside;
+  text-align: start;
+  font-size: large;
+}
+.aboutdiv1 {
+  font-size: 25px;
+  color: rgba(2, 2, 44, 0.783);
+}
+.middle {
+  margin-bottom: 10px;
+}
+p {
+  font-size: large;
+}
